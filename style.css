@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background: palegoldenrod;
+}
+.calc {
+    border: 2px solid rgb(243, 242, 242);
+    background-color:lightgrey;
+  }
+
+input {  
+    left: 5px;
+    top: 5px;
+    border: 0;
+    color: #495069;
+    background-color: #fff;
+    border-radius: 4px;
+    width: 60px;
+    height: 50px;
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: 0 4px rgba(0,0,0,0.2);
+}
+.value{
+    width: 37vh;
+}
+
+#clear{
+    color: white;
+    background-color: orange;
+}
+
+.operator{
+    color: white;
+    background-color: lightskyblue;
+}
+
+#eql{
+    color: white;
+    background-color: lime;
+}
+
